@@ -4,7 +4,7 @@ $(document).ready(function() {
         $('td').removeClass();
         $('#start1').addClass('p1 active');
         $('#start2').addClass('p2 active');
-        $('.winner').replaceWith('<div id = "winner" class= "winner"> Who Will Win? (your soul or dog....this time....)</div>')
+        $('.winner').replaceWith('<div id = "winner" class= "winner"> Who Will Win?</div>')
 
 
         // // Advance through track
@@ -27,9 +27,9 @@ $(document).ready(function() {
             if (winner1 || winner2) {
                 $(document).unbind('keyup');
                 if (winner1) {
-                    $('.winner').replaceWith('<div id = "winner" class= "winner"> Player 1 Wins(your soul)</div>')
+                    $('.winner').replaceWith('<div id = "winner" class= "winner"> Player 1 Wins</div>')
                 } else {
-                    $('.winner').replaceWith('<div id="winner" class="winner">Player 2 Wins (your dog)</div > ')
+                    $('.winner').replaceWith('<div id="winner" class="winner">Player 2 Wins</div > ')
                 }
             };
         });

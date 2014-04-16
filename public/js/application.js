@@ -34,5 +34,5 @@ $(document).ready(function() {
             };
         });
     });
-    $('#finish_line_1, #finish_line_2').css("background-color", "red");
+    // $('#finish_line_1, #finish_line_2').css("background-color", "red");
 });

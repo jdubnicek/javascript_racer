@@ -41,14 +41,13 @@ th {
   background-image: url('../media/16bit_princesses/finish_line.jpeg');
 }
 
-div {
+.winner {
   font-size: 48px;
   color: white;
   font-family: copperplate;
 }
 
 body {
-  background-image: url('../media/16bit_princesses/iceland.jpg');
+  background-image: url('../media/16bit_princesses/frozen_field.jpg');
   background-repeat: no-repeat;
-  background-size: 100%;
 }
